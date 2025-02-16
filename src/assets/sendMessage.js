@@ -18,7 +18,6 @@ async function fetchReport(tickers) {
         return fetchPolygondata(ticker)
     }))
     const filtredData = JSON.stringify(stocks.filter((stock) => !stock.error))
-    console.log(filtredData)
     const messages =[
         {
             role: 'system',

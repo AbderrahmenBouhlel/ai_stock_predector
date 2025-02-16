@@ -27,7 +27,6 @@ export default function Ai_predector() {
         error  && setResponse('')
         e.preventDefault();
         if (response){
-            console.log('fuckkkkkkkkkkkkkkkkkkkkkkk')
             setResponse(null);
 
 
